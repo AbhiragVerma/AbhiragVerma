@@ -1,14 +1,20 @@
 # 👋 Hey, I'm Abhirag Verma
 
-<p><code>abhiragverma@github:~$ whoami</code></p>
-
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=abhiragverma&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F211960950%3Fu%3D11d59c574572d1c1c48b238eba6f7e58c26ded12%26v%3D4&style=terminal" alt="Abhirag Verma hero visual" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:203a43&height=180&section=header&text=Abhirag%20Verma&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 </p>
 
-**Abhirag Verma** · CSE Student · Developer · Builder
+<p align="center">
+  <code>abhiragverma@github:~$ whoami</code>
+</p>
 
-> Learning by building, breaking things, fixing them, and building them better.
+<p align="center">
+  <b>CSE Student • Java Developer • Full-Stack Developer • Builder</b>
+</p>
+
+<p align="center">
+  Learning by building, breaking things, fixing them, and building them better.
+</p>
 
 ---
 
@@ -16,186 +22,212 @@
 
 I'm a Computer Science Engineering student who enjoys turning ideas into working software.
 
-Currently exploring:
+My current focus is **Java, Data Structures & Algorithms, backend development, and full-stack web development**.
 
-* 🌐 Full-stack web development
-* ⚛️ React & modern JavaScript
-* 🟦 TypeScript
-* 🟢 Node.js & Express
-* ☕ Java & Data Structures
-* 🐍 Python
-* ⚙️ C/C++ & systems concepts
-* 🗄️ MongoDB & backend development
-* 🧠 Problem solving and software engineering
+I'm currently exploring:
 
-I learn best by **building projects rather than just watching tutorials**.
+- ☕ Java & Data Structures
+- 🌐 Full-Stack Web Development
+- ⚛️ React
+- 🟨 JavaScript & TypeScript
+- 🟢 Node.js & Express
+- 🗄️ MongoDB & MySQL
+- 🐍 Python
+- ⚙️ C / C++
+- 🐧 Linux
+- 🧠 Problem Solving & Software Engineering
+
+> I learn best by building projects instead of only following tutorials.
 
 ---
 
-## 🛠️ My Toolbox
+# 🛠️ Tech Stack
 
-<p><code>abhiragverma@github:~$ toolbox --list</code></p>
+## 💻 Programming Languages
 
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=abhiragverma&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F211960950%3Fu%3D11d59c574572d1c1c48b238eba6f7e58c26ded12%26v%3D4&style=terminal" alt="Abhirag Verma tech stack" />
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,cpp,c,python,js,ts&perline=6" />
 </p>
 
-### Languages
+---
 
-`JavaScript` · `TypeScript` · `Java` · `Python` · `C` · `C++` · `HTML` · `CSS`
+## 🌐 Frontend Development
 
-### Technologies
-
-`React` · `Node.js` · `Express.js` · `MongoDB` · `Mongoose` · `Vite` · `Tailwind CSS` · `Git` · `GitHub`
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind&perline=6" />
+</p>
 
 ---
 
-## 🚀 Featured Projects
+## ⚙️ Backend & APIs
 
-### 🏆 SIH2026
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express&perline=6" />
+</p>
+
+---
+
+## 🤖 AI / Machine Learning & Data Analysis
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv&perline=6" />
+</p>
+
+> Exploring machine learning, data analysis, and Python-based AI development.
+
+---
+
+## 🗄️ Databases
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,redis,postgres&perline=6" />
+</p>
+
+---
+
+## 🔧 Tools & Platforms
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,linux,vscode&perline=6" />
+</p>
+
+---
+
+# 🚀 Featured Projects
+
+## 🏆 SIH2026
 
 A team project developed for the **Smart India Hackathon 2026**.
 
-**Stack:** TypeScript · React · Node.js · Backend APIs
+The project focuses on building a practical solution to a real-world problem while working with a larger application architecture.
 
-> Building a practical solution around a real-world problem while learning how to structure and ship a larger application.
+**Technologies:**
 
-🔗 [View Repository](https://github.com/AbhiragVerma/SIH2026)
+`TypeScript` · `React` · `Node.js` · `APIs`
 
----
-
-### 🗺️ SkillMap
-
-A project focused on helping users understand and navigate their learning and career journey.
-
-**Stack:** JavaScript · React · Tailwind CSS · Node.js
-
-Worked on frontend development, backend integration, APIs, deployment, and Git-based collaboration.
-
-🔗 [View Repository](https://github.com/AbhiragVerma/skill-map-project)
+🔗 **[View Repository](https://github.com/AbhiragVerma/SIH2026)**
 
 ---
 
-### 🔐 Auth-Forge
+## 🗺️ SkillMap
 
-An authentication-focused backend project exploring how real applications handle authentication and authorization.
+A web application focused on helping users navigate their learning and career journey.
 
-**Stack:** JavaScript · Node.js · Express.js
+Worked on:
 
-🔗 [View Repository](https://github.com/AbhiragVerma/Auth-Forge)
+- Frontend development
+- React UI
+- Tailwind CSS
+- Backend integration
+- REST APIs
+- Deployment
+- Git & GitHub collaboration
+
+**Technologies:**
+
+`JavaScript` · `React` · `Tailwind CSS` · `Node.js`
+
+🔗 **[View Repository](https://github.com/AbhiragVerma/skill-map-project)**
 
 ---
 
-### 🏰 The Greatest Estate Developer — Excavillary Engineer
+## 🔐 Auth-Forge
+
+An authentication-focused backend project built to understand how modern applications handle authentication and authorization.
+
+**Technologies:**
+
+`JavaScript` · `Node.js` · `Express.js`
+
+🔗 **[View Repository](https://github.com/AbhiragVerma/Auth-Forge)**
+
+---
+
+## 🏰 The Greatest Estate Developer — Excavillary Engineer
 
 A choice-driven engineering and kingdom-management game inspired by **The Greatest Estate Developer**.
 
-Instead of focusing purely on combat, the player solves engineering and management problems such as:
+Instead of focusing primarily on combat, the game focuses on engineering, strategy, management, diplomacy, and decision-making.
 
-* 🌉 Infrastructure development
-* 🌊 Disaster and flood management
-* 💰 Resource and economy management
-* 🤝 Diplomacy and relationships
-* 🧠 Strategic decision making
-* 📖 Branching storylines
-* 🎭 Multiple endings
+### Features
 
-**Stack:** C / C++
+- 🌉 Infrastructure development
+- 🌊 Flood and disaster management
+- 💰 Resource & economy management
+- 🤝 Diplomacy and relationships
+- 🧠 Strategic decision making
+- 📖 Branching storylines
+- 🎭 Multiple endings
+- 🎒 Player statistics and inventory
+- ⭐ Reputation and relationship systems
 
-🔗 [View Repository](https://github.com/AbhiragVerma/The_Greatest_Estate_Developer_Excavillary_Engineer)
+**Technologies:**
 
----
+`C` · `C++`
 
-## 📚 Learning Repositories
-
-Not everything here is meant to be production software.
-
-Some repositories document my journey while learning programming fundamentals.
-
-### ☕ Java & DSA
-
-Java programming, data structures, algorithms, and problem-solving practice.
-
-🔗 [Java Learning](https://github.com/AbhiragVerma/Java_Learning)
-
-🔗 [Java & Data Structures Algorithms](https://github.com/AbhiragVerma/Java_and_Data_Structure_Algorithims)
-
-### 🐍 Python
-
-Small programs and projects created while learning Python.
-
-🔗 [Employee Management](https://github.com/AbhiragVerma/Employee_Mangment)
-
-### 🌐 JavaScript
-
-Experiments, exercises, and projects while learning modern JavaScript.
-
-🔗 [JavaScript](https://github.com/AbhiragVerma/javascript)
+🔗 **[View Repository](https://github.com/AbhiragVerma/The_Greatest_Estate_Developer_Excavillary_Engineer)**
 
 ---
 
-## 📈 My Development Journey
+# 📚 Learning & Practice
+
+## ☕ Java & Data Structures
+
+I'm actively using Java to strengthen my programming fundamentals and problem-solving skills.
+
+Topics include:
+
+- Object-Oriented Programming
+- Data Structures
+- Algorithms
+- Problem Solving
+- Java fundamentals
+
+🔗 **[Java Learning](https://github.com/AbhiragVerma/Java_Learning)**
+
+🔗 **[Java & Data Structures Algorithms](https://github.com/AbhiragVerma/Java_and_Data_Structure_Algorithims)**
+
+---
+
+## 🐍 Python
+
+Programming exercises and small projects created while learning Python.
+
+🔗 **[Employee Management](https://github.com/AbhiragVerma/Employee_Mangment)**
+
+---
+
+## 🌐 JavaScript
+
+Experiments, exercises, and projects created while learning modern JavaScript.
+
+🔗 **[JavaScript](https://github.com/AbhiragVerma/javascript)**
+
+---
+
+# 📈 My Development Journey
 
 ```text
 HTML / CSS
-     ↓
+      ↓
 JavaScript
-     ↓
+      ↓
 React + Tailwind
-     ↓
+      ↓
 Node.js + Express
-     ↓
+      ↓
 MongoDB + APIs
-     ↓
-Full-stack projects
-     ↓
+      ↓
+Full-Stack Projects
+      ↓
 TypeScript
-     ↓
-Hackathons + larger projects
-     ↓
-Next: stronger DSA + production-level systems
+      ↓
+Java + Data Structures
+      ↓
+Hackathons & Larger Projects
+      ↓
+Production-Level Development
 ```
-
-I'm still learning — and that's intentional.
-
-Every repository represents something I was trying to understand, build, or improve.
-
----
-
-## 🎯 Currently Working On
-
-```text
-[████████████████░░░░] Full-Stack Development
-
-[██████████████░░░░░░] Java + DSA
-
-[████████████░░░░░░░░] TypeScript
-
-[███████████░░░░░░░░░] Backend Development
-
-[█████████░░░░░░░░░░░] System Design
-
-[███████░░░░░░░░░░░░░] Open Source
-```
-
-My current goal is simple:
-
-> **Build fewer toy projects and more projects that are worth showing.**
-
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=abhiragverma&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F211960950%3Fu%3D11d59c574572d1c1c48b238eba6f7e58c26ded12%26v%3D4" alt="Abhirag Verma GitHub statistics" />
-</p>
-
-<p align="center">
-  <code>Building → Learning → Breaking → Debugging → Rebuilding</code>
-</p>
-
----
-
 ## 🌱 What I'm Looking For
 
 I'm interested in:
