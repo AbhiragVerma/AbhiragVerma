@@ -1,20 +1,13 @@
 # 👋 Hey, I'm Abhirag Verma
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:203a43&height=180&section=header&text=Abhirag%20Verma&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+  <img
+    src="./terminal.svg"
+    alt="Abhirag Verma macOS terminal introduction"
+    width="900"
+  />
 </p>
 
-<p align="center">
-  <code>abhiragverma@github:~$ whoami</code>
-</p>
-
-<p align="center">
-  <b>CSE Student • Java Developer • Full-Stack Developer • Builder</b>
-</p>
-
-<p align="center">
-  Learning by building, breaking things, fixing them, and building them better.
-</p>
 
 ---
 
