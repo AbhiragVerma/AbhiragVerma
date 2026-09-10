@@ -1,181 +1,295 @@
-<svg width="900" height="430" viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="430" viewBox="0 0 900 430"
+     xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="14"
-                    flood-color="#000000"
-                    flood-opacity="0.35"/>
+
+    <!-- Window shadow -->
+    <filter id="shadow"
+            x="-20%"
+            y="-20%"
+            width="140%"
+            height="140%">
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="14"
+        flood-color="#000000"
+        flood-opacity="0.35"/>
     </filter>
+
+    <!-- Smooth window fade + scale -->
+    <style>
+      .terminal {
+        opacity: 0;
+        transform-origin: center;
+        animation: terminalIn 1s ease-out forwards;
+      }
+
+      .content {
+        opacity: 0;
+        animation: contentIn 0.7s ease-out forwards;
+      }
+
+      .cursor {
+        animation: blink 1s step-end infinite;
+      }
+
+      @keyframes terminalIn {
+        from {
+          opacity: 0;
+          transform: scale(0.96);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      @keyframes contentIn {
+        from {
+          opacity: 0;
+          transform: translateY(8px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes blink {
+        0%, 50% {
+          opacity: 1;
+        }
+        51%, 100% {
+          opacity: 0;
+        }
+      }
+    </style>
+
   </defs>
 
-  <!-- Terminal Window -->
-  <rect
-    x="10"
-    y="10"
-    width="880"
-    height="410"
-    rx="16"
-    fill="#1e1e1e"
-    stroke="#343434"
-    stroke-width="1"
-    filter="url(#shadow)"
-  />
 
-  <!-- macOS Title Bar -->
-  <path
-    d="M10 26
-       Q10 10 26 10
-       H874
-       Q890 10 890 26
-       V62
-       H10 Z"
-    fill="#2d2d2d"
-  />
+  <!-- ================= TERMINAL WINDOW ================= -->
 
-  <!-- Traffic Lights -->
-  <circle cx="34" cy="36" r="7" fill="#ff5f57"/>
-  <circle cx="58" cy="36" r="7" fill="#febc2e"/>
-  <circle cx="82" cy="36" r="7" fill="#28c840"/>
+  <g class="terminal">
 
-  <!-- Window Title -->
-  <text
-    x="450"
-    y="40"
-    text-anchor="middle"
-    fill="#a1a1a1"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="13"
-  >
-    abhiragverma@github: ~
-  </text>
+    <!-- Main Window -->
+    <rect
+      x="10"
+      y="10"
+      width="880"
+      height="410"
+      rx="16"
+      fill="#1e1e1e"
+      stroke="#3a3a3a"
+      stroke-width="1"
+      filter="url(#shadow)"
+    />
 
-  <!-- Terminal Content -->
+    <!-- macOS Title Bar -->
+    <path
+      d="
+        M10 26
+        Q10 10 26 10
+        H874
+        Q890 10 890 26
+        V62
+        H10
+        Z
+      "
+      fill="#2d2d2d"
+    />
 
-  <text
-    x="38"
-    y="98"
-    fill="#50fa7b"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="15"
-  >
-    abhiragverma@github:~$
-  </text>
+    <!-- Traffic Lights -->
 
-  <text
-    x="255"
-    y="98"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="15"
-  >
-    whoami
-  </text>
+    <circle
+      cx="34"
+      cy="36"
+      r="7"
+      fill="#ff5f57"
+    />
 
-  <text
-    x="38"
-    y="132"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="17"
-    font-weight="bold"
-  >
-    Abhirag Verma
-  </text>
+    <circle
+      cx="58"
+      cy="36"
+      r="7"
+      fill="#febc2e"
+    />
 
-  <text
-    x="38"
-    y="158"
-    fill="#bdbdbd"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="14"
-  >
-    CSE Student | Java Developer | Full-Stack Developer
-  </text>
+    <circle
+      cx="82"
+      cy="36"
+      r="7"
+      fill="#28c840"
+    />
+
+    <!-- Window Title -->
+
+    <text
+      x="450"
+      y="40"
+      text-anchor="middle"
+      fill="#a1a1a1"
+      font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+      font-size="13"
+    >
+      abhiragverma@github: ~
+    </text>
 
 
-  <!-- Second Command -->
+    <!-- ================= CONTENT ================= -->
 
-  <text
-    x="38"
-    y="207"
-    fill="#50fa7b"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="15"
-  >
-    abhiragverma@github:~$
-  </text>
+    <g class="content">
 
-  <text
-    x="255"
-    y="207"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="15"
-  >
-    cat focus.txt
-  </text>
+      <!-- COMMAND 1 -->
+
+      <text
+        x="38"
+        y="98"
+        fill="#50fa7b"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="15"
+      >
+        abhiragverma@github:~$
+      </text>
+
+      <text
+        x="255"
+        y="98"
+        fill="#f8f8f2"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="15"
+      >
+        whoami
+      </text>
 
 
-  <!-- Focus -->
+      <!-- NAME -->
 
-  <text
-    x="38"
-    y="244"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="14"
-  >
-    Java Development
-  </text>
+      <text
+        x="38"
+        y="132"
+        fill="#ffffff"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="17"
+        font-weight="bold"
+      >
+        Abhirag Verma
+      </text>
 
-  <text
-    x="38"
-    y="272"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="14"
-  >
-    Data Structures &amp; Algorithms
-  </text>
 
-  <text
-    x="38"
-    y="300"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="14"
-  >
-    Problem Solving
-  </text>
+      <!-- ROLE -->
 
-  <text
-    x="38"
-    y="328"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="14"
-  >
-    Backend Development
-  </text>
+      <text
+        x="38"
+        y="158"
+        fill="#bdbdbd"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="14"
+      >
+        CSE Student | Java Developer | Full-Stack Developer
+      </text>
 
-  <text
-    x="38"
-    y="356"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="14"
-  >
-    Full-Stack Development
-  </text>
 
-  <text
-    x="38"
-    y="384"
-    fill="#f8f8f2"
-    font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="14"
-  >
-    System Design
-  </text>
+      <!-- COMMAND 2 -->
+
+      <text
+        x="38"
+        y="207"
+        fill="#50fa7b"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="15"
+      >
+        abhiragverma@github:~$
+      </text>
+
+      <text
+        x="255"
+        y="207"
+        fill="#f8f8f2"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="15"
+      >
+        cat focus.txt
+      </text>
+
+
+      <!-- FOCUS -->
+
+      <text
+        x="38"
+        y="244"
+        fill="#f8f8f2"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="14"
+      >
+        Java Development
+      </text>
+
+      <text
+        x="38"
+        y="272"
+        fill="#f8f8f2"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="14"
+      >
+        Data Structures &amp; Algorithms
+      </text>
+
+      <text
+        x="38"
+        y="300"
+        fill="#f8f8f2"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="14"
+      >
+        Problem Solving
+      </text>
+
+      <text
+        x="38"
+        y="328"
+        fill="#f8f8f2"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="14"
+      >
+        Backend Development
+      </text>
+
+      <text
+        x="38"
+        y="356"
+        fill="#f8f8f2"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="14"
+      >
+        Full-Stack Development
+      </text>
+
+      <text
+        x="38"
+        y="384"
+        fill="#f8f8f2"
+        font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="14"
+      >
+        System Design
+      </text>
+
+
+      <!-- CURSOR -->
+
+      <rect
+        class="cursor"
+        x="255"
+        y="372"
+        width="8"
+        height="15"
+        fill="#f8f8f2"
+      />
+
+    </g>
+
+  </g>
 
 </svg>
